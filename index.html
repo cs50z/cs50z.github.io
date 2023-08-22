@@ -1,19 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Get Free money</title>
-    <script>
-        function displayImage() {
-            var image = document.getElementById("image.gif");
+    <title>My site</title>
+           <style>
+            table, th, td {
+               border:1px solid gray;
+               text-align: center;
+            }
+            a
+            {
+                text-decoration: none;
+                color: #213fff;
+            }
 
-            image.src = "image.gif";
+            a:hover
+            {
+                text-decoration: underline;
+            }
 
-            image.style.display = "block";
-        }
-    </script>
+         </style>
 </head>
 <body>
-    <button onclick="displayImage()">Get your money now</button>
-    <img id="image.gif" style="display: none;" />
+        <p>
+
+        </p>
+        <button id="white">Light mode</button>
+        <button id="black">Dark Mode</button>
+
+        <script>
+
+            let body = document.querySelector('body');
+            document.querySelector('#white').addEventListener('click', function()
+            {
+                body.style.backgroundColor = 'white';
+                body.style.color = 'black';
+            });
+
+            document.querySelector('#black').addEventListener('click', function() {
+                body.style.backgroundColor = 'black';
+                body.style.color = 'white';
+            });
+        </script>
+
+   <h2>Welcome to my site!</h2>
+   <h3>A place where I make irrelevant stuff! (using low-level coding)</h3>
+    <p>
+        Some of my random stuff
+    </p>
+    <ul>
+        <li><a href="cs50z.github.io"></a></li>
+        <li><a href="cs50z.github.io"></a></li>
+        <li><a href="cs50z.github.io"></a></li>
+        <li><a href="cs50z.github.io"></a></li>
+        <li><a href="https://www.youtube.com/watch?v=p3G5IXn0K7A"></a></li>
+    <ul>
+    
+
 </body>
 </html>
