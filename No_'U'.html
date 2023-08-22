@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+        <title>color blind test</title>
+    </head>
+    <body>
+        <button id="red">Red</button>
+        <button id="purple">Orange</button>
+        <button id="black">Yellow</button>
+        <button id="blue">Green</button>
+        <button id="orange">Blue</button>
+        <button id="white">Purple</button>
+        <button id="green">White</button>
+        <button id="yellow">Black</button>
+
+        <script>
+
+            let body = document.querySelector('body');
+            document.querySelector('#red').addEventListener('click', function()
+            {
+                body.style.backgroundColor = 'red';
+            });
+
+            document.querySelector('#orange').addEventListener('click', function() {
+                body.style.backgroundColor = 'orange';
+            });
+
+            document.querySelector('#yellow').addEventListener('click', function() {
+                body.style.backgroundColor = 'yellow';
+            });
+
+            document.querySelector('#green').addEventListener('click', function() {
+                body.style.backgroundColor = 'green';
+            });
+
+            document.querySelector('#blue').addEventListener('click', function() {
+                body.style.backgroundColor = 'blue';
+            });
+
+            document.querySelector('#purple').addEventListener('click', function() {
+                body.style.backgroundColor = 'purple';
+            });
+
+            document.querySelector('#white').addEventListener('click', function() {
+                body.style.backgroundColor = 'white';
+            });
+
+            document.querySelector('#black').addEventListener('click', function() {
+                body.style.backgroundColor = 'black';
+            });
+
+        </script>
+    </body>
+</html>
