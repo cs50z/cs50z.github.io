@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aparo Milk!</title>
+</head>
+<body>
+    <h3 align="left">Buy some</h3>
+    <h1 align="center">Aparo Milk!</h1>
+    <h4 align="right">Only the Finest!</h4>
+
+    <img alt="aparo milk" src="aparomilk.png">
+</body>
+</html>
